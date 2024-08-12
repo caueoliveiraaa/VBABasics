@@ -1,18 +1,10 @@
 ﻿Public Class Form1
-
-
     Private Sub btnGo_Click(sender As Object, e As EventArgs) Handles btnGo.Click
-
-
         MessageBox.Show("Go")
-
-
     End Sub
 
 
     Private Sub BntVariables_Click(sender As Object, e As EventArgs) Handles BntVariables.Click
-
-
         ' Dim stands for "dimension"
         ' It is used to declare variables
         ' It is a convention to use "st" for the String type
@@ -31,14 +23,10 @@
         stSecondName = "Smith"
 
         MsgBox("Hello, " & stFirstName & " " & stSecondName & " welcome.")
-
-
     End Sub
 
 
     Private Sub btnDataTypes_Click(sender As Object, e As EventArgs) Handles btnDataTypes.Click
-
-
         ' "i" is used for integer variables
         ' "b" is used for boolean variables
         ' "dec" is used for decimal variables
@@ -73,9 +61,5 @@
             "Price: " & decPrice & vbNewLine &
             "Date Registration: " & dtDateRegistered
         )
-
-
     End Sub
-
-
 End Class
